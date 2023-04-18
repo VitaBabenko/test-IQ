@@ -1,0 +1,16 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    color: var(--primary-text-color);
+    font-family: Montserrat, sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
