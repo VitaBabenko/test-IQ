@@ -1,9 +1,15 @@
 <header class="container header">
-  <button type="button" class="nav__menu_btn">
-    <svg width="24" height="16">
-      <use href="./images/symbol-defs.svg#icon-menu"></use>
-    </svg>
-  </button>
+  <div class="header__wrap">
+    <button type="button" class="nav__menu_btn">
+      <svg width="24" height="16">
+        <use href="./images/symbol-defs.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <div class="header__wrap_test visually-hidden">
+      <img src="./images/rain_bk3.png" alt="Мозг" width="50" />
+      <p class="header__wrap_test-title">тест на определение IQ</p>
+    </div>
+  </div>
   <div class="mob__menu mob__menu_is-hidden">
     <button type="button" class="mob__menu_close-btn">
       <svg width="28" height="28">
@@ -11,15 +17,9 @@
       </svg>
     </button>
     <ul class="mob__menu_list">
-      <li class="mob__menu_item">
-        <a href="./index.html" class="mob__menu_link link">Главная</a>
-      </li>
-      <li class="mob__menu_item">
-        <a href="#" class="mob__menu_link link">Информация о тесте</a>
-      </li>
-      <li class="mob__menu_item">
-        <a href="#" class="mob__menu_link link">Пройти тест</a>
-      </li>
+      <li class="mob__menu_item home">Главная</li>
+      <li class="mob__menu_item about">Информация о тесте</li>
+      <li class="mob__menu_item test">Пройти тест</li>
     </ul>
   </div>
 </header>
