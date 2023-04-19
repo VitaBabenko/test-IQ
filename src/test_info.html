@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test IQ</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <div class="header__wrap">
+        <button type="button" class="nav__menu_btn">
+          <svg width="24" height="16">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob__menu mob__menu_is-hidden">
+        <button type="button" class="mob__menu_close-btn">
+          <svg width="28" height="28">
+            <use href="./images//symbol-defs.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <ul class="mob__menu_list">
+          <li class="mob__menu_item home"><a href="index.html">Главная</a></li>
+          <li class="mob__menu_item about">
+            <a href="test_info.html">Информация о тесте</a>
+          </li>
+          <li class="mob__menu_item test">
+            <a href="test_1.html">Пройти тест</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="container section__about">
+        <svg class="section__about_icon-up" width="30" height="25">
+          <use href="./images/symbol-defs.svg#icon-up"></use>
+        </svg>
+        <p class="section__about_title">
+          Профессиональный IQ-тест позволяет не только определить коэффициент
+          вашего интеллекта, но и выработать список рекомендаций для повышения
+          этого показателя.
+        </p>
+        <svg class="section__about_icon-down" width="23" height="20">
+          <use href="./images/symbol-defs.svg#icon-down"></use>
+        </svg>
+      </section>
+      <section class="container section__brain">
+        <p class="section__brain_title">
+          Также по результатам теста
+          <span class="section__brain_title-size">вы получите</span> подробные
+          <span>советы</span> по определению наиболее
+          <span class="section__brain_title-size">для вашего типа</span>
+          <span class="section__brain_title-style">интеллекта</span>
+          <span class="section__brain_title-size">сферы деятельности</span>,
+          которая принесет вам скорейший финансовый результат.
+        </p>
+        <img
+          src="./images/325-01.png"
+          alt="Мозг"
+          class="section__brain_img"
+          width="250"
+        />
+        <a href="test_1.html" class="section__brain_link btn link"
+          >Пройти тест</a
+        >
+      </section>
+      <section class="container section__test">
+        <p class="section__test_title">
+          Прохождение теста займет у вас не более
+          <span class="section__test_title-color">12 минут</span>, а его
+          результаты вы сможете
+          <span class="section__test_title-color">использовать всю жизнь.</span>
+        </p>
+        <div class="section__test_wrap">
+          <p class="section__test_wrap-title">
+            Профессиональная интерпретация и детально
+            <span class="section__test_wrap-style"
+              >проработанные рекомендации</span
+            >
+            позволят вам качественно
+            <span class="section__test_wrap-style"
+              >изменить все аспекты своей жизни:</span
+            >
+            от финансового до любовного.
+          </p>
+        </div>
+        <a href="test_1.html" class="section__test_link btn link"
+          >Пройти тест</a
+        >
+        <div class="wrapper">
+          <svg class="wrapper_icon" width="12" height="12">
+            <use href="./images/symbol-defs.svg#icon-footer"></use>
+          </svg>
+          <p class="wrapper_title">2019</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -4,15 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test IQ</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <!-- <script type="module" src="./index.js"></script> -->
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <include src="./partials/header.html"></include>
-    <include src="./partials/main.html"></include>
-    <include src="./partials/test.html"></include>
+    <header class="container header">
+      <div class="header__wrap">
+        <button type="button" class="nav__menu_btn">
+          <svg width="24" height="16">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob__menu mob__menu_is-hidden">
+          <button type="button" class="mob__menu_close-btn">
+            <svg width="28" height="28">
+              <use href="./images//symbol-defs.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+          <ul class="mob__menu_list">
+            <li class="mob__menu_item home">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="mob__menu_item about">
+              <a href="test_info.html">Информация о тесте</a>
+            </li>
+            <li class="mob__menu_item test">
+              <a href="test_1.html">Пройти тест</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container section__hero">
+        <p class="section__hero_name">Пройдите точный и быстрый</p>
+        <h1 class="section__hero_title">
+          Тест на <br />определение<br />
+          IQ
+        </h1>
+        <a href="test_1.html" class="section__hero_link btn link"
+          >Пройти тест</a
+        >
+        <p class="section__hero_about">
+          И получите рекомендации<br />
+          по развитию своего интеллекта
+          <span class="section__hero_about-color"
+            >и улучшению финансового благосостояния и личной жизни</span
+          >
+        </p>
+        <a href="test_info.html" class="section__hero_link-more link"
+          ><svg class="section__hero_link-icon" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+          Подробнее</a
+        >
+      </section>
+    </main>
 
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/btn-more.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
