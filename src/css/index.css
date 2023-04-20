@@ -554,6 +554,75 @@ img {
   color: #ffffff;
 }
 
+.form__wrap_color {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+  margin-left: 27px;
+  margin-right: 26px;
+}
+
+#square-gainsboro {
+  width: 60px;
+  height: 60px;
+  background-color: gainsboro;
+}
+
+#square-blue {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+}
+
+#square-green {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+}
+
+#square-red {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}
+
+#square-yellow {
+  width: 60px;
+  height: 60px;
+  background-color: yellow;
+}
+
+#square-brown {
+  width: 60px;
+  height: 60px;
+  background-color: brown;
+}
+
+#square-black {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+
+#square-violet {
+  width: 60px;
+  height: 60px;
+  background-color: violet;
+}
+
+#square-turquoise {
+  width: 60px;
+  height: 60px;
+  background-color: turquoise;
+}
+
+.square-color.is-active {
+  border: 2px;
+  border-color: #ffc700;
+  cursor: pointer;
+}
+
 .wrapper__test_city {
   margin-top: 37px;
   margin-bottom: 23px;
