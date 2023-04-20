@@ -21,7 +21,11 @@ const onClickLink = () => {
   wrapTest.classList.add('visually-hidden');
   wrapResult.classList.remove('visually-hidden');
 
-  setTimeout(() => {});
+  setTimeout(() => {
+    const resultWrap = document.querySelector('.wrapper__result');
+    resultWrap.classList.remove('visually-hidden');
+    wrapResult.classList.add('visually-hidden');
+  }, 5000);
 };
 
 listStar.addEventListener('click', onStarClick);
