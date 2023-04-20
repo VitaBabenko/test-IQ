@@ -105,6 +105,17 @@ img {
   color: #ffc700;
 }
 
+.header__wrap_result {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffc700;
+  margin-left: 24px;
+}
+
 .mob__menu {
   position: fixed;
   background-color: #181818;
@@ -902,4 +913,92 @@ img {
   line-height: 19px;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+
+.wrapper__result {
+  background-image: url('../images/rain_bk2.png');
+  padding: 30px 0 30px 0;
+}
+
+.wrapper__result_title {
+  margin-top: 18px;
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 0.9;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.wrapper__result_about {
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.8;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper__result_about-underline {
+  text-decoration-line: underline;
+}
+
+.wrapper__result_title-second {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: #3bde7c;
+}
+
+.wrapper__result_about-second {
+  margin-bottom: 4px;
+  padding: 15px 12px 11px 12px;
+  background-color: #1c2741;
+  margin-left: auto;
+  margin-right: auto;
+  width: 256px;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.wrapper__result_call {
+  margin-bottom: 6px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 0.9;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #3bde7c;
+}
+
+.wrapper__result_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 0.9;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background-color: #eb1b00;
+  border-radius: 5px;
+  width: 290px;
+  height: 92px;
+  margin-left: auto;
+  margin-right: auto;
 }
