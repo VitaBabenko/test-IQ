@@ -160,8 +160,16 @@ img {
   color: #ffffff;
 }
 
-.mob__menu_item:hover {
+.mob__menu_link:hover {
   color: #ffc700;
+}
+
+.mob__menu_link {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .section__hero {
@@ -209,6 +217,11 @@ img {
   margin-bottom: 22px;
   width: 189px;
   height: 41px;
+}
+
+.section__hero_link:hover {
+  background-color: #8e8e8e;
+  width: 193px;
 }
 
 .section__hero_about {
@@ -320,6 +333,11 @@ img {
   height: 44px;
 }
 
+.section__brain_link:hover {
+  background-color: #8e8e8e;
+  width: 203px;
+}
+
 .section__test {
   background-image: url(../images/rain_bk2.png);
   background-repeat: no-repeat;
@@ -375,6 +393,12 @@ img {
   width: 200px;
   height: 44px;
   margin-bottom: 52px;
+}
+
+.section__test_link:hover {
+  background-color: #ffc700;
+  width: 203px;
+  color: #181818;
 }
 
 .wrapper {
@@ -453,6 +477,12 @@ img {
   margin-top: 152px;
 }
 
+.form__link_gender:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
+}
+
 .wrapper__test_age {
   margin-top: 65px;
   margin-bottom: 48px;
@@ -472,6 +502,12 @@ img {
   border-radius: 20px;
   width: 189px;
   margin-top: 62px;
+}
+
+.form__link_age:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
 }
 
 .wrapper__test_house {
@@ -495,6 +531,12 @@ img {
   margin-top: 36px;
 }
 
+.form__link_house:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
+}
+
 .wrapper__test_number {
   margin-top: 28px;
   margin-bottom: 36px;
@@ -514,6 +556,12 @@ img {
   border-radius: 20px;
   width: 189px;
   margin-top: 29px;
+}
+
+.form__link_number:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
 }
 
 .wrapper__test_color {
@@ -540,6 +588,12 @@ img {
   margin-top: 34px;
 }
 
+.form__link_color:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
+}
+
 .wrapper__test_color-second {
   margin-top: 17px;
   margin-bottom: 31px;
@@ -563,64 +617,62 @@ img {
   margin-right: 26px;
 }
 
-#square-gainsboro {
+.square-gainsboro {
   width: 60px;
   height: 60px;
   background-color: gainsboro;
 }
 
-#square-blue {
+.square-blue {
   width: 60px;
   height: 60px;
   background-color: blue;
 }
 
-#square-green {
+.square-green {
   width: 60px;
   height: 60px;
   background-color: green;
 }
 
-#square-red {
+.square-red {
   width: 60px;
   height: 60px;
   background-color: red;
 }
 
-#square-yellow {
+.square-yellow {
   width: 60px;
   height: 60px;
   background-color: yellow;
 }
 
-#square-brown {
+.square-brown {
   width: 60px;
   height: 60px;
   background-color: brown;
 }
 
-#square-black {
+.square-black {
   width: 60px;
   height: 60px;
   background-color: black;
 }
 
-#square-violet {
+.square-violet {
   width: 60px;
   height: 60px;
   background-color: violet;
 }
 
-#square-turquoise {
+.square-turquoise {
   width: 60px;
   height: 60px;
   background-color: turquoise;
 }
 
-.square-color.is-active {
-  border: 2px;
+.is-active {
   border-color: #ffc700;
-  cursor: pointer;
 }
 
 .wrapper__test_city {
@@ -647,6 +699,12 @@ img {
   margin-top: 29px;
 }
 
+.form__link_city:hover {
+  background-color: #ffc700;
+  font-weight: 600;
+  color: #181818;
+}
+
 .wrapper__test_figurine {
   margin-top: 17px;
   margin-bottom: 20px;
@@ -661,6 +719,18 @@ img {
   color: #ffffff;
 }
 
+.list__wrap_figurine {
+  display: flex;
+  margin-top: 23px;
+  gap: 29px;
+  justify-content: center;
+}
+
+.item_figurine {
+  width: 41px;
+  height: 42px;
+}
+
 .form__link_figurine {
   padding: 15px 17px;
   color: #8e8e8e;
@@ -669,6 +739,12 @@ img {
   border-radius: 20px;
   width: 189px;
   margin-top: 35px;
+}
+
+.form__link_figurine:hover {
+  background-color: #ffc700;
+  font-weight: 600;
+  color: #181818;
 }
 
 .wrapper__test_time {
@@ -704,6 +780,12 @@ img {
   border-radius: 20px;
   width: 189px;
   margin-top: 50px;
+}
+
+.form__link_time:hover {
+  background-color: #ffc700;
+  font-weight: 600;
+  color: #181818;
 }
 
 .wrapper__test_geometry {
@@ -748,6 +830,12 @@ img {
   margin-top: 30px;
 }
 
+.form__link_geometry:hover {
+  background-color: #ffc700;
+  color: #181818;
+  font-weight: 600;
+}
+
 .wrapper__test_star {
   margin-top: 33px;
   margin-bottom: 15px;
@@ -760,6 +848,17 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+
+.lineHorizontal {
+  margin-top: 24px;
+  margin-bottom: 19px;
+}
+
+.list__wrap_star {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
 }
 
 .wrapper__test_result {
@@ -776,7 +875,25 @@ img {
   color: #ffffff;
 }
 
+.icon__loader {
+  fill: green;
+  z-index: 101;
+}
+
+.preloader__row {
+  text-align: center;
+  animation: preloader-rotate 2.5s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .wrapper_result {
+  margin-top: 28px;
+  margin-bottom: 200px;
   width: 280px;
   margin-right: auto;
   margin-left: auto;

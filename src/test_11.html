@@ -26,12 +26,16 @@
           </svg>
         </button>
         <ul class="mob__menu_list">
-          <li class="mob__menu_item home"><a href="index.html">Главная</a></li>
+          <li class="mob__menu_item home">
+            <a href="index.html" class="mob__menu_link link">Главная</a>
+          </li>
           <li class="mob__menu_item about">
-            <a href="test_info.html">Информация о тесте</a>
+            <a href="test_info.html" class="mob__menu_link link"
+              >Информация о тесте</a
+            >
           </li>
           <li class="mob__menu_item test">
-            <a href="test_1.html">Пройти тест</a>
+            <a href="test_1.html" class="mob__menu_link link">Пройти тест</a>
           </li>
         </ul>
       </div>
@@ -44,27 +48,27 @@
           width="260"
           class="wrapper__test_img"
         />
-        <form>
-          <h2 class="wrapper__test_star">Вставьте подходящее число</h2>
-          <img
-            src="./images/star.png"
-            alt="звезда"
-            width="240"
-            class="wrapper__test_img"
-          />
-          <div class="form__wrap">
-            <label><input type="radio" name="star" />34</label>
-            <label><input type="radio" name="star" />36</label>
-            <label><input type="radio" name="star" />53</label
-            ><label><input type="radio" name="star" />44</label
-            ><label><input type="radio" name="star" />66</label
-            ><label><input type="radio" name="star" />42</label>
-          </div>
-        </form>
-        <a href="test_12.html" class="form__link_geometry btn link">Далее</a>
+        <h2 class="wrapper__test_star">Вставьте подходящее число</h2>
+        <img
+          src="./images/star.png"
+          alt="звезда"
+          width="240"
+          class="wrapper__test_img"
+        />
+        <hr class="lineHorizontal" />
+        <ul class="list__wrap_star">
+          <li><button type="button" class="item_figurine">34</button></li>
+          <li><button type="button" class="item_figurine">36</button></li>
+          <li><button type="button" class="item_figurine">53</button></li>
+          <li><button type="button" class="item_figurine">44</button></li>
+          <li><button type="button" class="item_figurine">66</button></li>
+          <li><button type="button" class="item_figurine">42</button></li>
+        </ul>
+        <a href="#" class="form__link_geometry btn link">Далее</a>
       </div>
     </main>
 
     <script src="./js/index.js"></script>
+    <script src="./js/test-11.js"></script>
   </body>
 </html>
